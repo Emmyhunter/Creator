@@ -187,7 +187,7 @@ ul li a{
     margin-top: 150px;
 }
 .camp{
-    background-image: url(/IMAGES/Footer.png);
+    background-image: url(./img/Footer.png);
     height: 90vh;
     width: 100%;
     position: relative;
