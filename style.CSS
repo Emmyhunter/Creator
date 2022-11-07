@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+header{
+    height: 100vh;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+}
+.name{
+    margin-left: 10px;
+}
+.firstflex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.secondbody{
+    width: 40%;
+}
+.apply{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.item{
+    margin-top: 20px;
+}
+.bank{
+    font-size: 28px;
+}
+span{
+    color: #3cc98a;
+}
+
+input{
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+}
+button{
+    width: 30%;
+    height: 50px;
+    background-color: #3cc98a;
+    border-radius: 10px;
+}
+.heading{
+    margin: 50px;
+}
+.part2 h1{
+    font-size: 30px;
+}
+.upsidedown img{
+    display: none
+}
+.frame2{
+    margin: 20px;
+}
+.frame2 h3{
+    font-size: 30px;
+}
+ul li{
+    font-size: 20px;
+    padding: 10px;
+}
+.stack{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-left: 80px;
+}
+.part1{
+    background-color: #f9fafb;
+}
+.part2{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.part2 img{
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+.part3{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.hide{
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+.heading{
+    text-align: center;
+}
+.launch{
+    text-align: center;
+    margin-top: 70px;
+}
+.launch h3{
+    font-size: 40px;
+}
+.launch p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.otherimg img{
+    position: absolute;
+    right: 70px;
+    width: 100%;
+}
+.part4 h4{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.part4{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.part5{
+    margin-top: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.start{
+    width: 75%;
+    height: 260px;
+    background-color: blueviolet;
+    border-radius: 13px;
+}
+.row{
+    display: flex;
+    gap: 60px;
+}
+.holder{
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+.madefor{
+    text-align: center;
+    font-size: 40px;
+}
+.img2{
+    position: relative;
+    bottom: 110px;
+    text-align: center;
+}
+.content1{
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+.content2{
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+.icons{
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+footer{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+}
+.final img{
+    position: absolute;
+    right: 100px;
+    width: 100%;
+}
+.downdown{
+    text-align: center;
+    margin-top: 150px;
+}
+.camp{
+    background-image: url(/IMAGES/Footer.png);
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    right: 50px;
+}
+.what{
+    color: black;
+}
+
+
+@media screen and (max-width:768px) {
+    header{
+        height: auto !important;
+        margin: 0 !important;
+        margin-top: 50px !important;
+        margin-left: 50px !important;
+    }
+
+    .logo img{
+        width: 140px !important;
+    }
+
+    .bank h1{
+        margin-top: 300px !important;
+        font-size: 90px !important;
+        width: 300vw !important;
+    }
+    button{
+        width: 170vw !important;
+        height: 160px !important;
+        color: white !important;
+        font-size: 50px !important;
+        border-radius: 25px !important;
+        margin-top: 70px !important;
+    }
+    input{
+        width: 250vw !important;
+        height: 160px !important;
+        color: black !important;
+        font-size: 50px !important;
+        border-radius: 25px !important;
+        margin-top: 70px !important;
+        border: 2px solid black !important;
+    }
+
+    .apply{
+        font-size: 80px !important;
+        width: 380vw !important;
+        margin-top: 70px !important;
+    }
+
+    .name h1{
+        font-size: 100px !important;
+        margin-left: 30px !important;
+    }
+
+    .img img{
+        display: none !important;
+    }
+    .part1{
+        margin: 0;
+        margin-top: 900px !important;
+        background-color: #f9fafb !important;
+    }
+    .part2 img{
+        transform: rotate(90deg) !important;
+    }
+    
+    .part3{
+        margin: 0 !important;
+        margin-top: 300px !important;
+        width: 300vw !important;
+    }
+    .part3 ul li{
+        margin-right: 300px !important;
+    }
+
+    .heading{
+        font-size: 70px !important;
+        text-align: center !important;
+    }
+
+    .stack{
+        flex-direction: column !important;
+        text-align: left !important;
+    }
+    .stack ul li{
+        font-size: 75px !important;
+    }
+
+    .frame2 img{
+        width: 10% !important;
+        margin: 30px !important;
+    }
+    .frame2 h3{
+        font-size: 70px !important;
+        margin-top: 30px !important;
+    }
+
+    .launch h3{
+        font-size: 90px !important;
+    }
+    .otherimg img{
+        position: relative !important;
+        left: 200px !important;
+    }
+
+    .launch p{
+        font-size: 70px !important;
+    }
+    .part4{
+        width: 230vw !important;
+    }
+    .part4 h4{
+        font-size: 50px !important;
+        margin: 0 !important;
+        margin-top: 50px !important;
+        width: 250vw !important;
+    }
+    .launch input{
+        margin: 0 !important;
+        margin-top: 400px !important;
+    }
+    .list{
+        width: 320vw !important;
+        margin-top: 50px !important;
+    }
+    .hide{
+        margin-top: 70px !important;
+    }
+    .what{
+        display: none !important;
+    }
+    .part5{
+        margin: 0 !important;
+    }
+    .start{
+        width: 350vw !important;   
+    }
+    .down{
+        flex-direction: column !important;
+        width: 250vw !important;
+    }
+    .support, .legal{
+        margin: 150px !important;
+        font-size: 70px !important;
+    }
+    .down ul li{
+        font-size: 50px !important;
+    }
+    footer{
+        margin: 0 !important;
+        margin-top: 200px !important;
+    }
+    .logo2{
+        width: 250vw !important;
+    }
+    .logo2 h3{
+        font-size: 45px !important;
+    }
+
+    .downdown{
+        width: 250vw !important;
+        text-align: center !important;
+    }
+    .downdown p{
+        font-size: 60px !important;
+    }
+}
